@@ -10,7 +10,7 @@ int main(){
             }
         }
         if (lim_suma == 20){
-            cout << i << " numero que se divide entre 1 al 10" << endl;
+            cout << i << " numero que se divide entre 1 al 20" << endl;
         }
     }
     return 0;

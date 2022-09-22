@@ -5,7 +5,6 @@ int main(){
     int num;
     int n_comp;
     int n_mayor = 0;
-    //int n_pivot;
     for (int i = 100; i <= 999; i++){
         for (int j = 100; j <= 999; j++){
             num = i * j;

@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int max = 2000000;
+    int max = 1000000;
     int suma_primo = 0;
     for (int i = 1; i < max; i++){
         int suma = 0;
@@ -19,3 +19,16 @@ int main(){
     cout << "La suma de los primos debajo de " << max << " es: " << suma_primo;
     return 0;
 }
+
+/*
+FUNCION PARA SABER SI ES PRIMO:
+bool esPrimo(long long n) {
+    long long factor = 2;
+    while (factor <= n/2) {
+        if (!(n % factor)){
+            return false;
+        }
+        factor++;
+    }
+    return true;
+}*/
